@@ -11,7 +11,7 @@ public class Employee implements Taxable {
         this.salary = salary;
     }
     
-    @Override
+    
     public double calcTax() {
         return salary * INCOME_TAX;
     }
